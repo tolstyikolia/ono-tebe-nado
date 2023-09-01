@@ -1,2 +1,3 @@
 # ono-tebe-nado
-Проект "Оно тебе надо"
+
+https://github.com/tolstyikolia/ono-tebe-nado.git

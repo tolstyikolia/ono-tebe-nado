@@ -9,7 +9,7 @@ ul {
 
 .header {
   background-color: #fff;
-  padding: 92px 49px 92px 51px;
+  padding: 92px 40px 92px 51px;
   color: #000000;
 }
 .container {
@@ -20,7 +20,7 @@ ul {
 }
 
 .logo {
-  margin-right: 142px;
+  margin-right: 147px;
 }
 
 .nav {
@@ -32,7 +32,7 @@ ul {
 .menu {
   display: flex;
   list-style: none;
-  gap: 13px;
+  gap: 10px;
 }
 
 .menu-item::before {
@@ -52,6 +52,7 @@ ul {
 .text-decoration-none {
   text-decoration: none;
 }
+
 .menu-link {
   font-size: 18px;
   line-height: normal;
@@ -60,6 +61,8 @@ ul {
 .adress {
   font-size: 18px;
   line-height: 24.3px;
+  margin-top: 5px;
+  margin-left: 5px;
 }
 
 .nav-link {
@@ -74,12 +77,20 @@ ul {
   line-height: 115%; /* 115px */
   letter-spacing: 30px;
   text-transform: uppercase;
+  display: block;
+  text-align: center;
+  margin-right: -35px;
 }
 
 .title {
   z-index: 1;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  /* row-gap: 20px; */
+  row-gap: 13px;
 }
+
 .banner {
   background-color: black;
   padding: 165px 50px 50px 50px;
@@ -90,16 +101,33 @@ ul {
   color: #fff;
 }
 
-.text-left {
+.text--align-left {
   text-align: left;
+  word-spacing: -22px;
 }
 
-.text-center {
-  text-align: center;
+.letter-o {
+  margin-left: 30px;
 }
 
-.text-right {
+.letter-e {
+  margin-left: 35px;
+  margin-right: 20px;
+}
+
+.letter-n {
+  margin-right: 25px;
+}
+
+.text--align-right {
   text-align: right;
+  letter-spacing: 30px;
+  margin-top: -10px;
+}
+
+.text {
+  margin-left: -40px;
+  word-spacing: 20px;
 }
 
 .overlay {
@@ -117,12 +145,13 @@ ul {
   z-index: 1;
   position: relative;
   text-transform: uppercase;
-  margin-top: 135px;
+  margin-top: 130px;
   display: flex;
   justify-content: flex-end;
-  gap: 78px;
+  gap: 72px;
   font-size: 22px;
   align-items: center;
+  line-height: 28px;
 }
 
 .button {
@@ -136,6 +165,10 @@ ul {
   text-transform: uppercase;
 }
 
+.auction {
+  word-spacing: 17px;
+}
+
 .lot {
   color: #fff;
   position: relative;
@@ -146,6 +179,7 @@ ul {
   justify-content: space-between;
   flex-direction: column;
 }
+
 .lot-title,
 .lot-description {
   z-index: 2;
@@ -179,6 +213,7 @@ ul {
   font-weight: 400;
   line-height: 120%;
 }
+
 .container-lots {
   max-width: 1440px;
   margin: 0 auto;
@@ -190,7 +225,7 @@ ul {
 }
 
 .lots {
-  padding-top: 189px;
+  padding-top: 180px;
 }
 
 .all-lots {
@@ -202,7 +237,7 @@ ul {
 }
 
 .more-lots {
-  margin-top: 34px;
+  margin-top: 30px;
   text-decoration: underline;
   padding-left: 90px;
   font-size: 20px;
@@ -244,7 +279,7 @@ ul {
   gap: 28px;
   margin-left: 453px;
   font-size: 20px;
-  margin-top: 7px;
+  margin-top: 6px;
 }
 
 .footer {
@@ -260,7 +295,7 @@ ul {
 
 .adress-footer {
   font-size: 18px;
-  margin-top: 5px;
+  margin-top: 6px;
 }
 
 .nav-footer {
@@ -272,7 +307,4 @@ ul {
 
 .menu-item-footer {
   list-style-type: none;
-}
-
-.socials {
 }
