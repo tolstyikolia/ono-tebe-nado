@@ -9,7 +9,7 @@ ul {
 
 .header {
   background-color: #fff;
-  padding: 92px 40px 92px 51px;
+  padding: 92px 49px 92px 51px;
   color: #000000;
 }
 .container {
@@ -27,6 +27,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 5px;
 }
 
 .menu {
@@ -61,13 +62,15 @@ ul {
 .adress {
   font-size: 18px;
   line-height: 24.3px;
-  margin-top: 5px;
+  margin-top: 3px;
   margin-left: 5px;
+  
 }
 
 .nav-link {
   text-decoration: none;
   border-bottom: 1px solid #000;
+  
 }
 
 .title-fragment {
@@ -93,7 +96,7 @@ ul {
 
 .banner {
   background-color: black;
-  padding: 165px 50px 50px 50px;
+  padding: 165px 47px 50px 50px;
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -111,12 +114,13 @@ ul {
 }
 
 .letter-e {
-  margin-left: 35px;
-  margin-right: 20px;
+  margin-left: 36px;
+  margin-right: 21px;
+  
 }
 
 .letter-n {
-  margin-right: 25px;
+  margin-right: 34px;
 }
 
 .text--align-right {
@@ -145,13 +149,15 @@ ul {
   z-index: 1;
   position: relative;
   text-transform: uppercase;
-  margin-top: 130px;
+  margin-top: 127px;
   display: flex;
   justify-content: flex-end;
   gap: 72px;
   font-size: 22px;
   align-items: center;
   line-height: 28px;
+
+  
 }
 
 .button {
@@ -163,21 +169,31 @@ ul {
   color: #fff;
   padding: 12px 32px;
   text-transform: uppercase;
+  
 }
 
 .auction {
   word-spacing: 17px;
+  margin-right: 8px;
+}
+
+.content-center {
+display: flex;
+justify-content: center;
 }
 
 .lot {
   color: #fff;
   position: relative;
   height: 450px;
-  width: 430px;
+  width: 430px; 
   padding: 50px 40px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  
+  
+  
 }
 
 .lot-title,
@@ -222,6 +238,7 @@ ul {
   gap: 25px;
   margin-top: 27px;
   margin-left: 6px;
+  flex-wrap: wrap;
 }
 
 .lots {
@@ -229,7 +246,7 @@ ul {
 }
 
 .all-lots {
-  padding-left: 90px;
+  padding-left: 48px;
   font-size: 40px;
   font-weight: 700;
   line-height: normal;
@@ -239,11 +256,14 @@ ul {
 .more-lots {
   margin-top: 30px;
   text-decoration: underline;
-  padding-left: 90px;
+  padding-left: 45px;
   font-size: 20px;
   font-weight: 400;
 }
-
+.content-about-center {
+display: flex;
+justify-content: center;
+}
 .about {
   display: flex;
   flex-direction: column;
@@ -289,20 +309,26 @@ ul {
 }
 
 .socials-img {
+  
   width: 100px;
   height: 48px;
+  margin-top: -2px;
+  margin-left: -10px;
+  margin-right: 5px;
 }
 
 .adress-footer {
   font-size: 18px;
   margin-top: 6px;
+  
 }
 
 .nav-footer {
   font-size: 18px;
   display: flex;
   text-align: center;
-  margin-left: 45px;
+  margin-left: 20px;
+  margin-top: 2px;
 }
 
 .menu-item-footer {
