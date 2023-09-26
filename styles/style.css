@@ -64,6 +64,7 @@ ul {
   line-height: 24.3px;
   margin-top: 3px;
   margin-left: 5px;
+  font-style: normal;
 }
 
 .nav-link {
@@ -185,19 +186,29 @@ ul {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  background-size: cover;
+}
+
+.first-image {
+  background-image: url("../images/card-lot-01.jpg");
   background-position: center center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
-.lot:first-child {
-  background-image: url("../images/card-lot-01.jpg");
-}
-.lot:nth-child(2) {
+
+.second-image {
   background-image: url("../images/card-lot-02.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.lot:nth-child(3) {
+
+.third-image {
   background-image: url("../images/card-lot-03.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
 
 .lot-title,
 .lot-description {
@@ -205,23 +216,12 @@ ul {
   position: relative;
 }
 
-
 .lot .overlay {
   z-index: 1;
 }
 
-.lot-img {
-  position: absolute;
-  z-index: 0;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 .lot-title {
   font-size: 22px;
-
   font-weight: 700;
   line-height: 120%; /* 26.4px */
   text-decoration: underline;
@@ -254,7 +254,7 @@ ul {
   text-decoration: none;
 }
 .all-lots {
-  padding-left: 43px;
+  padding-left: 90px;
   font-size: 40px;
   font-weight: 700;
   line-height: normal;
@@ -264,12 +264,11 @@ ul {
 .more-lots {
   margin-top: 30px;
   text-decoration: underline;
-  margin-left: 45px;
+  margin-left: 90px;
   font-size: 20px;
   font-weight: 400;
   display: inline-block;
 }
-
 
 .about {
   display: flex;
@@ -277,16 +276,12 @@ ul {
   padding-inline: 50px;
   column-gap: 25px;
   align-items: start;
-  
-  
 }
 
 .title-about {
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-
- 
 }
 
 .black-circle-new {
@@ -296,7 +291,6 @@ ul {
 
 .image-only {
   width: 240px;
-
 }
 
 .space-content {
@@ -328,19 +322,18 @@ ul {
 .socials-img {
   width: 48px;
   height: 48px;
-  
 }
 
 .adress-footer {
   font-size: 18px;
-  
+  font-style: normal;
+  line-height: 1.3em;
 }
 
 .nav-footer {
   font-size: 18px;
   display: flex;
   text-align: center;
-  
 }
 
 .menu-item-footer {
